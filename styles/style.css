@@ -1,0 +1,34 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url('fonts/JosefinSans') format('truetype');
+}
+
+html {
+    background-color: beige;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: JosefinSans, sans-serif;
+
+}
+
+body h2 {
+    font-family: JosefinSans, sans-serif;
+    text-align: center;
+}
+
+body table {
+    margin: 0 auto;
+    border: 1px solid blue;
+}   
+
+th {
+    background-color: aliceblue;
+    border-bottom: 1px solid blue;
+}
+
+td:not(.last) {
+    border-bottom: 1px solid blue;
+}
